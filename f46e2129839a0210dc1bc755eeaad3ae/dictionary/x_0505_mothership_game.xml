@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f3b63561831e0210dc1bc755eeaad3d8" label="Game" max_length="40" name="x_0505_mothership_game" type="collection">
+        <element label="Current Turn For" max_length="32" name="current_turn_for" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting Join" sequence="0" value="Awaiting Join"/>
+                <element inactive_on_update="false" label="Planning" sequence="1" value="Planning"/>
+                <element inactive_on_update="false" label="Playing" sequence="2" value="Playing"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="Cancelled"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="Completed"/>
+            </choice>
+        </element>
+        <element label="Winner" max_length="32" name="winner" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="current_turn_for"/>
+        </index>
+        <index name="index2">
+            <element name="winner"/>
+        </index>
+    </element>
+</database>
