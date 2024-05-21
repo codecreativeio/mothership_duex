@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>92</height>
+        <image>5b15f56d83da0210dc1bc755eeaad3e0</image>
+        <name>x_0505_mothership.Death Star.png</name>
+        <size_bytes>1176</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 01:11:17</sys_created_on>
+        <sys_id>5ef47dad83da0210dc1bc755eeaad329</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_0505_mothership.Death Star.png</sys_name>
+        <sys_package display_value="Mothership Duex" source="x_0505_mothership">f46e2129839a0210dc1bc755eeaad3ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_update_name>db_image_5ef47dad83da0210dc1bc755eeaad329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 01:11:31</sys_updated_on>
+        <thumbnail/>
+        <width>92</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#a0a0a0</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>e0a6242146cc03502016535101bb1336beab4da78c65dbb3a0a67df5b8121b23</hash>
+        <image_height>92</image_height>
+        <image_width>92</image_width>
+        <size_bytes>1176</size_bytes>
+        <size_compressed>1199</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 01:11:31</sys_created_on>
+        <sys_id>5b15f56d83da0210dc1bc755eeaad3e0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 01:11:31</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>5ef47dad83da0210dc1bc755eeaad329</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="5b15f56d83da0210dc1bc755eeaad3e0">5b15f56d83da0210dc1bc755eeaad3e0</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 01:11:31</sys_created_on>
+        <sys_id>9b15f56d83da0210dc1bc755eeaad3e0</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AZgEZ/uJUE5HDQoaCgAAAA1JSERSAAAAXAAAAFwIAgAAAGyNRQ8AAARfSURBVHic7Z3LdaswEIbHORTgArx1BVRABTTkZRqiAipwBd5SSBaTqztIg54zsnD0L3IcBwvpY14SRrlALa3rWtjCNE0iPQnqon2CchautOloQdFg4UqJjjyUOjioxNFIQqmPg0oQjQwUg+N2u4k0mKpt2/CFCJpSKK/Xq7wT4rrf7yUfL4LSJhFUCZdMKC3joMpDkwPFEDGefKTb7YbHmFhjPkKjz7Zt1q/ms6aFVJkGM7gMqR9Y1zWvl5VlOrmua2r0/Uo6+r1JN1up3U6AclIiqKTOx0I5NRFU/BCioHwAEVTkQMJQPoYIKmY4geyjQeT5fJqfRjXnB8F85IMiTmRZFgCY5xn+1SamQqF/qiA/l8PiTYSIKb3QLsZxRARupUPRjOMIxcVbjI64JBdvGXo+ny4OaibbtuH7aCnLsiAXbR3ZCx9oBR3HEMGRIwU3glA68zxbEaeyGCjioYQaBRCfQnlIVRA72LQyP1WWI7DzQ/b1PM8YX94iG0plM6FeY+yl8oTTHbJioMVoQt/BkVuYLNsxQmPB4/U6yWoHRclMrF8NFzggwlKLOZf/+KNqAJw0tIMie01oBrEiK+zH4DpUhoIOaC1lefQfiuzqET29u8iGJ1qWBQsTqYsRM+wjZNRYdLMPFY2mKFPUW8ai2oeYw36haE+FTSgBYiyGBY0y5SeCXNMzENQtxS3naalGcdDoq5pxgo0rQqEFmN9B3KIOSMRJld9YYuxxAP2bONQ13L5axYu2mfiF4XaA44m8H6o76wXnKqGx+C84LV7Mm9lmEil/CGPcJ4MIyu8gwS666UlJQQ/6YvNOaiLwjGQcR4wsxkdcV6I5CPTNJCixuY+Ho+EyzzNrYoYOXXkr7EwwzXuqOBuKkvXiOC00VFI4IuX3U8ZSgr4TE3RYUTTsnxpRjTVaS02Nn9Uu++T5zhvLiqCCWY99/3KWr9/UVL1Z8onUoTDqUBhdAODxeLy7Gw3p+/t7AIDr9frunrSlnn0Y9ZjCqENh1KEwGgrX0JPu46XOJK0bRqp9oyq1lMo3wzOU0cPuPow6FEZiUFpeQEjVx1pK9vLgNE1f5Q/dtR9rUyVpKR/jQQOIDiamqfbZDQBwv981voqR7dVWCzWFweQzA23h9fhAKOX29Qul2i4c1ZSXjPGFoqWUfNMqWyKn2z3a8pdX4ejjy7vbpuJlWHkC8jeu1PLOfU4UWWS90hq4bvZRDSt60wsbyomMRUrukCvVKe2X9lQMFFlj0TByQcQJzxC270QirI+GefgI7l+oWY62VvFtKhOcOkuVIeIVR0zHPN7gC7RBJ2p5zS2bCASzT0xwaS2zBPsTHFQ4JfubaNNYPL2KucxRdco0TXlfM6wvf08is2rC7l1WPnKfhsy2GqlA63aDMorfxittS7Pz5umkjc2S93k7I5fUrd6KNr87hTI2v+vbJDLqG2oy6luvMuqb9DLq2zkz6ht/M+pbxDPq/0yAkToUoxP924kfZEu7eYawBkAAAAAASUVORK5CYIK8bbSJmAQAAA==</data>
+        <length>1588</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="5b15f56d83da0210dc1bc755eeaad3e0">5b15f56d83da0210dc1bc755eeaad3e0</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 01:11:31</sys_created_on>
+        <sys_id>1f15f56d83da0210dc1bc755eeaad3e0</sys_id>
+    </sys_attachment_doc>
+</record_update>

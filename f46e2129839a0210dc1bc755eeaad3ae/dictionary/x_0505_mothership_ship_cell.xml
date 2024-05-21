@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="1165b5ed83da0210dc1bc755eeaad33d" extends="sys_metadata" label="Ship Cell" max_length="40" name="x_0505_mothership_ship_cell" type="collection">
+        <element label="Offset X" max_length="40" name="offset_x" type="integer"/>
+        <element label="Offset Y" max_length="40" name="offset_y" type="integer"/>
+        <element label="Ship" max_length="32" name="ship" reference="x_0505_mothership_ship" type="reference"/>
+        <index name="index">
+            <element name="ship"/>
+        </index>
+    </element>
+</database>

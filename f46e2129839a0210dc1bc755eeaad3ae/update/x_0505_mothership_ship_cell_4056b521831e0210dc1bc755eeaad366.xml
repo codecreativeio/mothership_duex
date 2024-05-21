@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0505_mothership_ship_cell">
+    <x_0505_mothership_ship_cell action="INSERT_OR_UPDATE">
+        <offset_x>1</offset_x>
+        <offset_y>1</offset_y>
+        <ship display_value="Death Star">77e43dad83da0210dc1bc755eeaad33b</ship>
+        <sys_class_name>x_0505_mothership_ship_cell</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 01:16:50</sys_created_on>
+        <sys_id>4056b521831e0210dc1bc755eeaad366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mothership Duex" source="x_0505_mothership">f46e2129839a0210dc1bc755eeaad3ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_update_name>x_0505_mothership_ship_cell_4056b521831e0210dc1bc755eeaad366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 01:16:50</sys_updated_on>
+    </x_0505_mothership_ship_cell>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_0505_mothership_ship">
+    <x_0505_mothership_ship action="INSERT_OR_UPDATE">
+        <image display_value="x_0505_mothership.Death Star.png">5ef47dad83da0210dc1bc755eeaad329</image>
+        <name>Death Star</name>
+        <ship_set display_value="Default">236431ad83da0210dc1bc755eeaad3ff</ship_set>
+        <sys_class_name>x_0505_mothership_ship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-21 01:11:59</sys_created_on>
+        <sys_id>77e43dad83da0210dc1bc755eeaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Death Star</sys_name>
+        <sys_package display_value="Mothership Duex" source="x_0505_mothership">f46e2129839a0210dc1bc755eeaad3ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_update_name>x_0505_mothership_ship_77e43dad83da0210dc1bc755eeaad33b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-21 01:11:59</sys_updated_on>
+    </x_0505_mothership_ship>
+</record_update>
