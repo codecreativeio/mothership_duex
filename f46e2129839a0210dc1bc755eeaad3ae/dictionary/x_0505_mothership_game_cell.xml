@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d164b98a83ae8210dc1bc755eeaad3e0" label="Game Cell" max_length="40" name="x_0505_mothership_game_cell" type="collection">
+        <element label="Player" max_length="32" name="player" reference="sys_user" type="reference"/>
+        <element display="true" label="Label" max_length="255" name="label" type="string"/>
+        <element choice="1" label="Hit Marker" max_length="40" name="hit_marker" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Miss" sequence="1" value="Miss"/>
+                <element inactive_on_update="false" label="Hit" sequence="0" value="Hit"/>
+            </choice>
+        </element>
+        <element label="Ship Image" max_length="32" name="ship_image" reference="db_image" type="reference"/>
+        <element label="Column" max_length="40" name="column" type="integer"/>
+        <element label="Ship" max_length="32" name="ship" reference="x_0505_mothership_ship" type="reference"/>
+        <element label="Row" max_length="40" name="row" type="integer"/>
+        <element label="Game" max_length="32" name="game" reference="x_0505_mothership_game" type="reference"/>
+        <index name="index">
+            <element name="game"/>
+        </index>
+        <index name="index2">
+            <element name="player"/>
+        </index>
+        <index name="index3">
+            <element name="ship"/>
+        </index>
+        <index name="index4">
+            <element name="ship_image"/>
+        </index>
+    </element>
+</database>

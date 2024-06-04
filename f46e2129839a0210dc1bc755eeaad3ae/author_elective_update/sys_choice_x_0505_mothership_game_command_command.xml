@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="command" table="x_0505_mothership_game_command" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>command</element>
+            <name>x_0505_mothership_game_command</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:20:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>command</sys_name>
+            <sys_package display_value="Mothership Duex" source="x_0505_mothership">f46e2129839a0210dc1bc755eeaad3ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+            <sys_update_name>sys_choice_x_0505_mothership_game_command_command</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:20:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>command</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Join Game</label>
+            <language>en</language>
+            <name>x_0505_mothership_game_command</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:20:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:20:48</sys_updated_on>
+            <value>Join Game</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>command</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leave Game</label>
+            <language>en</language>
+            <name>x_0505_mothership_game_command</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:20:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:20:48</sys_updated_on>
+            <value>Leave Game</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>command</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Place Ship</label>
+            <language>en</language>
+            <name>x_0505_mothership_game_command</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:20:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:20:48</sys_updated_on>
+            <value>Place Ship</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>command</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Take Turn</label>
+            <language>en</language>
+            <name>x_0505_mothership_game_command</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:20:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:20:48</sys_updated_on>
+            <value>Take Turn</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

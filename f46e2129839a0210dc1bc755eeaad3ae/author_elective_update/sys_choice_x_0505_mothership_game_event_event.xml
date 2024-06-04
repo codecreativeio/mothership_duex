@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="event" table="x_0505_mothership_game_event" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>event</element>
+            <name>x_0505_mothership_game_event</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:25:46</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>event</sys_name>
+            <sys_package display_value="Mothership Duex" source="x_0505_mothership">f46e2129839a0210dc1bc755eeaad3ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+            <sys_update_name>sys_choice_x_0505_mothership_game_event_event</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:25:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Game Created</label>
+            <language>en</language>
+            <name>x_0505_mothership_game_event</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:25:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:25:46</sys_updated_on>
+            <value>Game Created</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Player Joined</label>
+            <language>en</language>
+            <name>x_0505_mothership_game_event</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:25:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:25:46</sys_updated_on>
+            <value>Player Joined</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Player Left</label>
+            <language>en</language>
+            <name>x_0505_mothership_game_event</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:25:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:25:46</sys_updated_on>
+            <value>Player Left</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ship Placed</label>
+            <language>en</language>
+            <name>x_0505_mothership_game_event</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:25:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:25:46</sys_updated_on>
+            <value>Ship Placed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Turn Taken</label>
+            <language>en</language>
+            <name>x_0505_mothership_game_event</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:25:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:25:46</sys_updated_on>
+            <value>Turn Taken</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

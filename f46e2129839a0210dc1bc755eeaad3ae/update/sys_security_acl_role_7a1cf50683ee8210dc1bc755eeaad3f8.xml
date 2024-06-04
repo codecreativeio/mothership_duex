@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 01:14:44</sys_created_on>
+        <sys_id>7a1cf50683ee8210dc1bc755eeaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_0505_mothership_game_event.x_0505_mothership.admin</sys_name>
+        <sys_package display_value="Mothership Duex" source="x_0505_mothership">f46e2129839a0210dc1bc755eeaad3ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_security_acl display_value="x_0505_mothership_game_event">f61cf50683ee8210dc1bc755eeaad3f5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7a1cf50683ee8210dc1bc755eeaad3f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 01:14:44</sys_updated_on>
+        <sys_user_role display_value="x_0505_mothership.admin" name="x_0505_mothership.admin">d36ea12583da0210dc1bc755eeaad379</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

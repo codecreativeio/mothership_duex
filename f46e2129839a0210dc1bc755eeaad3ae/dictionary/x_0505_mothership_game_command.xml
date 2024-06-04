@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d986394e83ae8210dc1bc755eeaad3a6" label="Game Command" max_length="40" name="x_0505_mothership_game_command" type="collection">
+        <element label="Recorded At" max_length="40" name="recorded_at" type="insert_timestamp"/>
+        <element label="Coordinate Y" max_length="40" name="coordinate_y" type="integer"/>
+        <element choice="1" label="Command" max_length="40" name="command" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Join Game" sequence="0" value="Join Game"/>
+                <element inactive_on_update="false" label="Place Ship" sequence="2" value="Place Ship"/>
+                <element inactive_on_update="false" label="Take Turn" sequence="3" value="Take Turn"/>
+                <element inactive_on_update="false" label="Leave Game" sequence="1" value="Leave Game"/>
+            </choice>
+        </element>
+        <element label="Game" max_length="32" name="game" reference="x_0505_mothership_game" type="reference"/>
+        <element choice="1" label="Direction" max_length="40" name="direction" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Left" sequence="2" value="Left"/>
+                <element inactive_on_update="false" label="Right" sequence="3" value="Right"/>
+                <element inactive_on_update="false" label="Up" sequence="0" value="Up"/>
+                <element inactive_on_update="false" label="Down" sequence="1" value="Down"/>
+            </choice>
+        </element>
+        <element label="Coordinate X" max_length="40" name="coordinate_x" type="integer"/>
+        <element label="Player" max_length="32" name="player" reference="sys_user" type="reference"/>
+        <element label="Ship" max_length="32" name="ship" reference="x_0505_mothership_ship" type="reference"/>
+        <index name="index">
+            <element name="game"/>
+        </index>
+        <index name="index2">
+            <element name="player"/>
+        </index>
+        <index name="index3">
+            <element name="ship"/>
+        </index>
+    </element>
+</database>

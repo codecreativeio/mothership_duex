@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_0505_mothership_game" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Game - Default view" name="x_0505_mothership_game" related_list="NULL" sys_domain="global" view="Default view">580df94683ee8210dc1bc755eeaad350</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_0505_mothership_game_cell.game</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:18:40</sys_created_on>
+            <sys_id>d80df94683ee8210dc1bc755eeaad351</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:18:40</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Game - Default view" name="x_0505_mothership_game" related_list="NULL" sys_domain="global" view="Default view">580df94683ee8210dc1bc755eeaad350</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_0505_mothership_player.game</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:18:40</sys_created_on>
+            <sys_id>d00df94683ee8210dc1bc755eeaad352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:18:40</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Game - Default view" name="x_0505_mothership_game" related_list="NULL" sys_domain="global" view="Default view">580df94683ee8210dc1bc755eeaad350</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_0505_mothership_game_command.game</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:18:40</sys_created_on>
+            <sys_id>d40df94683ee8210dc1bc755eeaad352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:18:40</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Game - Default view" name="x_0505_mothership_game" related_list="NULL" sys_domain="global" view="Default view">580df94683ee8210dc1bc755eeaad350</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_0505_mothership_game_event.game</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:18:40</sys_created_on>
+            <sys_id>d80df94683ee8210dc1bc755eeaad352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:18:40</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Game - Default view</calculated_name>
+            <filter/>
+            <name>x_0505_mothership_game</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-04 01:18:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>580df94683ee8210dc1bc755eeaad350</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Game - Default view</sys_name>
+            <sys_package display_value="Mothership Duex" source="x_0505_mothership">f46e2129839a0210dc1bc755eeaad3ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+            <sys_update_name>sys_ui_related_x_0505_mothership_game_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-04 01:18:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
