@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-21 01:24:33</sys_created_on>
-            <sys_id>1618b1e1831e0210dc1bc755eeaad3d7</sys_id>
+            <sys_created_on>2024-06-11 00:51:48</sys_created_on>
+            <sys_id>97f935d083fe4a10dc1bc755eeaad35c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0505_mothership_game" sys_domain="global" view="Default view">e2f73da1831e0210dc1bc755eeaad313</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-21 01:24:33</sys_updated_on>
+            <sys_updated_on>2024-06-11 00:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,69 @@
             <element>current_turn_for</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-21 01:24:33</sys_created_on>
-            <sys_id>9a18b1e1831e0210dc1bc755eeaad3d7</sys_id>
+            <sys_created_on>2024-06-11 00:51:48</sys_created_on>
+            <sys_id>13f935d083fe4a10dc1bc755eeaad35d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0505_mothership_game" sys_domain="global" view="Default view">e2f73da1831e0210dc1bc755eeaad313</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-21 01:24:33</sys_updated_on>
+            <sys_updated_on>2024-06-11 00:51:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>players</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-11 00:51:48</sys_created_on>
+            <sys_id>97f935d083fe4a10dc1bc755eeaad35d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_0505_mothership_game" sys_domain="global" view="Default view">e2f73da1831e0210dc1bc755eeaad313</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-11 00:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-21 01:24:33</sys_created_on>
-            <sys_id>1218b1e1831e0210dc1bc755eeaad3d8</sys_id>
+            <sys_created_on>2024-06-11 00:51:48</sys_created_on>
+            <sys_id>1ff935d083fe4a10dc1bc755eeaad35d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0505_mothership_game" sys_domain="global" view="Default view">e2f73da1831e0210dc1bc755eeaad313</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-21 01:24:33</sys_updated_on>
+            <sys_updated_on>2024-06-11 00:51:48</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-21 01:24:33</sys_created_on>
-            <sys_id>9618b1e1831e0210dc1bc755eeaad3d8</sys_id>
+            <sys_created_on>2024-06-11 00:51:48</sys_created_on>
+            <sys_id>93f935d083fe4a10dc1bc755eeaad35e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0505_mothership_game" sys_domain="global" view="Default view">e2f73da1831e0210dc1bc755eeaad313</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-21 01:24:33</sys_updated_on>
+            <sys_updated_on>2024-06-11 00:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>winner</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-21 01:24:33</sys_created_on>
-            <sys_id>1e18b1e1831e0210dc1bc755eeaad3d8</sys_id>
+            <sys_created_on>2024-06-11 00:51:48</sys_created_on>
+            <sys_id>1bf935d083fe4a10dc1bc755eeaad35e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_0505_mothership_game" sys_domain="global" view="Default view">e2f73da1831e0210dc1bc755eeaad313</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-21 01:24:33</sys_updated_on>
+            <sys_updated_on>2024-06-11 00:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

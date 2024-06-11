@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation>Processes the Join Game command for Mothership</annotation>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Processes the Join Game command for Mothership</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>mothership__join_game</internal_name>
+        <label_cache>[{"name":"c22e0ff4-4ca7-47a3-99c0-db0f5463497a.__action_status__.code","label":"2 - Look Up Record➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"9f6a9843-50af-427c-9dcb-7932c7837d52":["condition"]}},{"name":"c22e0ff4-4ca7-47a3-99c0-db0f5463497a.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"ccd183ed-3ece-43ec-935a-e7d7f9cef3fc.Count","label":"2 - Look Up Records➛Count","reference":"","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"10f1f0ec-0968-4829-97bb-6eba24e9afe3":["condition"]}},{"name":"subflow.game_command.player","label":"Input➛Game Command➛Player","reference":"sys_user","reference_display":"Player","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"player","usedInstances":{"ccd183ed-3ece-43ec-935a-e7d7f9cef3fc":["conditions"],"c22e0ff4-4ca7-47a3-99c0-db0f5463497a":["conditions"],"915f9fe1-4610-47c0-b800-8dd7c44f6b43":["user"],"fadd8ab0-c6cd-49a2-83e1-8591a371ed3b":["player"]}},{"name":"subflow.game_command","label":"Input➛Game Command","reference":"x_0505_mothership_game_command","reference_display":"Game Command","type":"reference","base_type":"reference","column_name":"","usedInstances":{"853c3e52-9f74-427a-bf60-646f85908a3d":["record"],"f14d690e-3009-4377-8762-ea5e7605eb1d":["record"],"fadd8ab0-c6cd-49a2-83e1-8591a371ed3b":["game_command"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"839fd6d8-8edb-4d13-97bd-712445035a70","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"c22e0ff4-4ca7-47a3-99c0-db0f5463497a.Record","label":"2 - Look Up Record➛Game Record","reference":"x_0505_mothership_game","reference_display":"Game Record","type":"reference","base_type":"reference","usedInstances":{"cdadc38b-6ae7-4f2f-9196-ae446e4644a8":["condition"],"d06f176a-4b53-4736-a70a-28bde24d2410":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c481b71-0c8d-4a0b-82ef-709c7755a7fd.record","label":"5 - Create Record➛Game Record","reference":"x_0505_mothership_game","reference_display":"Game Record","type":"reference","base_type":"reference","usedInstances":{"915f9fe1-4610-47c0-b800-8dd7c44f6b43":["game"],"f14d690e-3009-4377-8762-ea5e7605eb1d":["game"],"fadd8ab0-c6cd-49a2-83e1-8591a371ed3b":["game"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Mothership - Join Game</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:42:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a1f7fddc83be4a10dc1bc755eeaad374</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>Mothership - Join Game</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mothership Duex" source="x_0505_mothership">f46e2129839a0210dc1bc755eeaad3ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_update_name>sys_hub_flow_a1f7fddc83be4a10dc1bc755eeaad374</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a1f7fddc83be4a10dc1bc755eeaad374^sys_idNOT IN65f7fddc83be4a10dc1bc755eeaad376"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a1f7fddc83be4a10dc1bc755eeaad374</id>
+        <name>Mothership - Join Game</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:42:57</sys_created_on>
+        <sys_id>65f7fddc83be4a10dc1bc755eeaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 00:42:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=65f7fddc83be4a10dc1bc755eeaad376"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a1f7fddc83be4a10dc1bc755eeaad374^sys_idNOT IN29183d1083fe4a10dc1bc755eeaad328"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=839fd6d8-8edb-4d13-97bd-712445035a70</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_0505_mothership_game_command</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>game_command</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Game Command</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Mothership - Join Game">a1f7fddc83be4a10dc1bc755eeaad374</model>
+        <model_id>a1f7fddc83be4a10dc1bc755eeaad374</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a1f7fddc83be4a10dc1bc755eeaad374</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_0505_mothership_game_command">x_0505_mothership_game_command</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:43:29</sys_created_on>
+        <sys_id>29183d1083fe4a10dc1bc755eeaad328</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 00:45:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=29183d1083fe4a10dc1bc755eeaad328"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a1f7fddc83be4a10dc1bc755eeaad374^sys_idNOT IN13964e1483728a10dc1bc755eeaad3c5,1a98b55083fe4a10dc1bc755eeaad376,6207c25483728a10dc1bc755eeaad3af,8206821483728a10dc1bc755eeaad372,ebd68e1483728a10dc1bc755eeaad36b,ec2c719483fe4a10dc1bc755eeaad394"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Mothership - Join Game">a1f7fddc83be4a10dc1bc755eeaad374</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>9614cf6e-8aaa-46cc-82b3-abcf6279d425</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:46:58</sys_created_on>
+        <sys_id>13964e1483728a10dc1bc755eeaad3c5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+        <ui_id>915f9fe1-4610-47c0-b800-8dd7c44f6b43</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=13964e1483728a10dc1bc755eeaad3c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>13964e1483728a10dc1bc755eeaad3c5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:47:49</sys_created_on>
+        <sys_id>c8d68ad083728a10dc1bc755eeaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:47:49</sys_updated_on>
+        <value>x_0505_mothership_player</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=13964e1483728a10dc1bc755eeaad3c5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>13964e1483728a10dc1bc755eeaad3c5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:47:49</sys_created_on>
+        <sys_id>84d68ad083728a10dc1bc755eeaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:47:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>13964e1483728a10dc1bc755eeaad3c5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:47:49</sys_created_on>
+        <sys_id>48d68ad083728a10dc1bc755eeaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:47:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>game={{4c481b71-0c8d-4a0b-82ef-709c7755a7fd.record}}^user={{subflow.game_command.player}}^is_ready=false</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=13964e1483728a10dc1bc755eeaad3c5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=13964e1483728a10dc1bc755eeaad3c5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Mothership - Join Game">a1f7fddc83be4a10dc1bc755eeaad374</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:45:43</sys_created_on>
+        <sys_id>1a98b55083fe4a10dc1bc755eeaad376</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+        <ui_id>853c3e52-9f74-427a-bf60-646f85908a3d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1a98b55083fe4a10dc1bc755eeaad376"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1a98b55083fe4a10dc1bc755eeaad376</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:46:07</sys_created_on>
+        <sys_id>48b8395083fe4a10dc1bc755eeaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 00:46:07</sys_updated_on>
+        <value>state=Processing</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1a98b55083fe4a10dc1bc755eeaad376</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:46:07</sys_created_on>
+        <sys_id>80b8395083fe4a10dc1bc755eeaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 00:46:07</sys_updated_on>
+        <value>x_0505_mothership_game_command</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1a98b55083fe4a10dc1bc755eeaad376"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1a98b55083fe4a10dc1bc755eeaad376</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:46:07</sys_created_on>
+        <sys_id>c4b8395083fe4a10dc1bc755eeaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 00:46:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.game_command}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1a98b55083fe4a10dc1bc755eeaad376</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:46:07</sys_created_on>
+        <sys_id>0cb8395083fe4a10dc1bc755eeaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 00:46:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1a98b55083fe4a10dc1bc755eeaad376</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:46:07</sys_created_on>
+        <sys_id>04b8395083fe4a10dc1bc755eeaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 00:46:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1a98b55083fe4a10dc1bc755eeaad376"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1a98b55083fe4a10dc1bc755eeaad376"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Mothership - Join Game">a1f7fddc83be4a10dc1bc755eeaad374</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>9614cf6e-8aaa-46cc-82b3-abcf6279d425</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:48:49</sys_created_on>
+        <sys_id>6207c25483728a10dc1bc755eeaad3af</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+        <ui_id>fadd8ab0-c6cd-49a2-83e1-8591a371ed3b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6207c25483728a10dc1bc755eeaad3af"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6207c25483728a10dc1bc755eeaad3af</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:50:52</sys_created_on>
+        <sys_id>a0878ad083728a10dc1bc755eeaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:50:52</sys_updated_on>
+        <value>x_0505_mothership_game_event</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6207c25483728a10dc1bc755eeaad3af"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6207c25483728a10dc1bc755eeaad3af</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:50:52</sys_created_on>
+        <sys_id>6c878ad083728a10dc1bc755eeaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:50:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6207c25483728a10dc1bc755eeaad3af</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:50:52</sys_created_on>
+        <sys_id>20878ad083728a10dc1bc755eeaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:50:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>game={{4c481b71-0c8d-4a0b-82ef-709c7755a7fd.record}}^game_command={{subflow.game_command}}^player={{subflow.game_command.player}}^event=Game Created</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6207c25483728a10dc1bc755eeaad3af"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6207c25483728a10dc1bc755eeaad3af"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Mothership - Join Game">a1f7fddc83be4a10dc1bc755eeaad374</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>9614cf6e-8aaa-46cc-82b3-abcf6279d425</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:44:25</sys_created_on>
+        <sys_id>8206821483728a10dc1bc755eeaad372</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+        <ui_id>4c481b71-0c8d-4a0b-82ef-709c7755a7fd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8206821483728a10dc1bc755eeaad372"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8206821483728a10dc1bc755eeaad372</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:46:49</sys_created_on>
+        <sys_id>5996821483728a10dc1bc755eeaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:46:49</sys_updated_on>
+        <value>x_0505_mothership_game</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8206821483728a10dc1bc755eeaad372</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:46:49</sys_created_on>
+        <sys_id>9196821483728a10dc1bc755eeaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:46:49</sys_updated_on>
+        <value>players=fd-scripted^state=Awaiting Join</value>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=8206821483728a10dc1bc755eeaad372"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8206821483728a10dc1bc755eeaad372^sys_idNOT INd996821483728a10dc1bc755eeaad379"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>8206821483728a10dc1bc755eeaad372</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"players":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn fd_data.subflow_inputs.game_command.player.sys_id;","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:46:49</sys_created_on>
+        <sys_id>d996821483728a10dc1bc755eeaad379</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8206821483728a10dc1bc755eeaad372"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Mothership - Join Game">a1f7fddc83be4a10dc1bc755eeaad374</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>9614cf6e-8aaa-46cc-82b3-abcf6279d425</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:48:04</sys_created_on>
+        <sys_id>ebd68e1483728a10dc1bc755eeaad36b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+        <ui_id>f14d690e-3009-4377-8762-ea5e7605eb1d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ebd68e1483728a10dc1bc755eeaad36b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ebd68e1483728a10dc1bc755eeaad36b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:48:32</sys_created_on>
+        <sys_id>a2f68ad083728a10dc1bc755eeaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:48:32</sys_updated_on>
+        <value>x_0505_mothership_game_command</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ebd68e1483728a10dc1bc755eeaad36b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ebd68e1483728a10dc1bc755eeaad36b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:48:32</sys_created_on>
+        <sys_id>22f68ad083728a10dc1bc755eeaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:48:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.game_command}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ebd68e1483728a10dc1bc755eeaad36b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:48:32</sys_created_on>
+        <sys_id>aaf68ad083728a10dc1bc755eeaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:48:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ebd68e1483728a10dc1bc755eeaad36b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:48:32</sys_created_on>
+        <sys_id>6ef68ad083728a10dc1bc755eeaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:48:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>game={{4c481b71-0c8d-4a0b-82ef-709c7755a7fd.record}}^state=Success</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ebd68e1483728a10dc1bc755eeaad36b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ebd68e1483728a10dc1bc755eeaad36b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Mothership - Join Game">a1f7fddc83be4a10dc1bc755eeaad374</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:01:10</sys_created_on>
+        <sys_id>ec2c719483fe4a10dc1bc755eeaad394</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+        <ui_id>c22e0ff4-4ca7-47a3-99c0-db0f5463497a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ec2c719483fe4a10dc1bc755eeaad394"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ec2c719483fe4a10dc1bc755eeaad394</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:06:40</sys_created_on>
+        <sys_id>096df1d483fe4a10dc1bc755eeaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:06:40</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="Sort Type">5d09f99587003300663ca1bb36cb0bb1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ec2c719483fe4a10dc1bc755eeaad394</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:06:40</sys_created_on>
+        <sys_id>456df1d483fe4a10dc1bc755eeaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:06:40</sys_updated_on>
+        <value>x_0505_mothership_game</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ec2c719483fe4a10dc1bc755eeaad394</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:06:40</sys_created_on>
+        <sys_id>816df1d483fe4a10dc1bc755eeaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:06:40</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ec2c719483fe4a10dc1bc755eeaad394</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:06:40</sys_created_on>
+        <sys_id>cd6df1d483fe4a10dc1bc755eeaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:06:40</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="Order by">1d09f99587003300663ca1bb36cb0bad</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ec2c719483fe4a10dc1bc755eeaad394"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ec2c719483fe4a10dc1bc755eeaad394</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:06:40</sys_created_on>
+        <sys_id>c16df1d483fe4a10dc1bc755eeaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:06:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>state=Awaiting Join^playersNOT LIKE{{subflow.game_command.player}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>ec2c719483fe4a10dc1bc755eeaad394</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:06:40</sys_created_on>
+        <sys_id>4d6df1d483fe4a10dc1bc755eeaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:06:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_type</field>
+        <id>ec2c719483fe4a10dc1bc755eeaad394</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:06:40</sys_created_on>
+        <sys_id>856df1d483fe4a10dc1bc755eeaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:06:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ec2c719483fe4a10dc1bc755eeaad394</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:06:40</sys_created_on>
+        <sys_id>856df1d483fe4a10dc1bc755eeaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:06:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>ec2c719483fe4a10dc1bc755eeaad394</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:06:40</sys_created_on>
+        <sys_id>016df1d483fe4a10dc1bc755eeaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:06:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ec2c719483fe4a10dc1bc755eeaad394"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ec2c719483fe4a10dc1bc755eeaad394"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a1f7fddc83be4a10dc1bc755eeaad374^sys_idNOT IN47978ad083728a10dc1bc755eeaad3aa,f1554a5083728a10dc1bc755eeaad380,f3444a5083728a10dc1bc755eeaad36c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">60c7c69483728a10dc1bc755eeaad378</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Mothership - Join Game">a1f7fddc83be4a10dc1bc755eeaad374</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>9614cf6e-8aaa-46cc-82b3-abcf6279d425</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:51:19</sys_created_on>
+        <sys_id>47978ad083728a10dc1bc755eeaad3aa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+        <ui_id>56dfff01-e58a-4d35-8618-50dca52459b0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=47978ad083728a10dc1bc755eeaad3aa"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=47978ad083728a10dc1bc755eeaad3aa"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=47978ad083728a10dc1bc755eeaad3aa"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1cc7c69483728a10dc1bc755eeaad36e</block>
+        <comment/>
+        <connected_to>cdadc38b-6ae7-4f2f-9196-ae446e4644a8</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Mothership - Join Game">a1f7fddc83be4a10dc1bc755eeaad374</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:41:23</sys_created_on>
+        <sys_id>f1554a5083728a10dc1bc755eeaad380</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+        <ui_id>9614cf6e-8aaa-46cc-82b3-abcf6279d425</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f1554a5083728a10dc1bc755eeaad380"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f1554a5083728a10dc1bc755eeaad380"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f1554a5083728a10dc1bc755eeaad380"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9cc7c69483728a10dc1bc755eeaad369</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Mothership - Join Game">a1f7fddc83be4a10dc1bc755eeaad374</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:36:54</sys_created_on>
+        <sys_id>f3444a5083728a10dc1bc755eeaad36c</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:51:57</sys_updated_on>
+        <ui_id>cdadc38b-6ae7-4f2f-9196-ae446e4644a8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f3444a5083728a10dc1bc755eeaad36c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f3444a5083728a10dc1bc755eeaad36c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:37:29</sys_created_on>
+        <sys_id>ec744a5083728a10dc1bc755eeaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:37:29</sys_updated_on>
+        <value>Matching Game Is Found</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f3444a5083728a10dc1bc755eeaad36c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f3444a5083728a10dc1bc755eeaad36c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:37:29</sys_created_on>
+        <sys_id>6c744a5083728a10dc1bc755eeaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:37:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{c22e0ff4-4ca7-47a3-99c0-db0f5463497a.Record}}ISNOTEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f3444a5083728a10dc1bc755eeaad36c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 01:37:29</sys_created_on>
+        <sys_id>a8744a5083728a10dc1bc755eeaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 01:37:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f3444a5083728a10dc1bc755eeaad36c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f3444a5083728a10dc1bc755eeaad36c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a1f7fddc83be4a10dc1bc755eeaad374^sys_idNOT IN65183d1083fe4a10dc1bc755eeaad32d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>game_command</element>
+        <help/>
+        <hint/>
+        <label>Game Command</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a1f7fddc83be4a10dc1bc755eeaad374</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 00:43:30</sys_created_on>
+        <sys_id>65183d1083fe4a10dc1bc755eeaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mothership Duex" source="x_0505_mothership">f46e2129839a0210dc1bc755eeaad3ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 00:43:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a1f7fddc83be4a10dc1bc755eeaad374"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a1f7fddc83be4a10dc1bc755eeaad374"/>
+</record_update>
