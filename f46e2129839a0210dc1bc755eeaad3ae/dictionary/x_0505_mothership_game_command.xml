@@ -11,6 +11,14 @@
             </choice>
         </element>
         <element label="Game" max_length="32" name="game" reference="x_0505_mothership_game" type="reference"/>
+        <element choice="3" default="Ready" function_definition="Ready" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ready" sequence="0" value="Ready"/>
+                <element inactive_on_update="false" label="Processing" sequence="1" value="Processing"/>
+                <element inactive_on_update="false" label="Success" sequence="2" value="Success"/>
+                <element inactive_on_update="false" label="Error" sequence="3" value="Error"/>
+            </choice>
+        </element>
         <element choice="1" label="Direction" max_length="40" name="direction" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Left" sequence="2" value="Left"/>
