@@ -12,7 +12,7 @@
         <element label="Column" max_length="40" name="column" type="integer"/>
         <element label="Ship" max_length="32" name="ship" reference="x_0505_mothership_ship" type="reference"/>
         <element label="Row" max_length="40" name="row" type="integer"/>
-        <element label="Game" max_length="32" name="game" reference="x_0505_mothership_game" type="reference"/>
+        <element label="Game" max_length="32" name="game" reference="x_0505_mothership_game" reference_cascade_rule="delete" type="reference"/>
         <index name="index">
             <element name="game"/>
         </index>

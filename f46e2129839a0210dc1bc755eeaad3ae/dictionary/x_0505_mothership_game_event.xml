@@ -12,7 +12,7 @@
         <element label="Ship Sunk" max_length="32" name="ship_sunk" reference="x_0505_mothership_ship" type="reference"/>
         <element label="Winner" max_length="32" name="winner" reference="sys_user" type="reference"/>
         <element label="Coordinate X" max_length="40" name="coordinate_x" type="integer"/>
-        <element label="Game" max_length="32" name="game" reference="x_0505_mothership_game" type="reference"/>
+        <element label="Game" max_length="32" name="game" reference="x_0505_mothership_game" reference_cascade_rule="delete" type="reference"/>
         <element label="Ship" max_length="32" name="ship" reference="x_0505_mothership_ship" type="reference"/>
         <element label="Coordinate Y" max_length="40" name="coordinate_y" type="integer"/>
         <element choice="1" label="Hit Marker" max_length="40" name="hit_marker" type="choice">
