@@ -26,6 +26,7 @@
             <choice>
                 <element inactive_on_update="false" label="Game Created" sequence="0" value="Game Created"/>
                 <element inactive_on_update="false" label="Turn Taken" sequence="4" value="Turn Taken"/>
+                <element inactive_on_update="false" label="Player Ready" sequence="6" value="Player Ready"/>
                 <element inactive_on_update="false" label="Player Joined" sequence="1" value="Player Joined"/>
                 <element inactive_on_update="false" label="Ship Place Failed" sequence="5" value="Ship Place Failed"/>
                 <element inactive_on_update="false" label="Player Left" sequence="2" value="Player Left"/>

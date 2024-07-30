@@ -91,5 +91,24 @@
             <sys_updated_on>2024-06-04 01:20:48</sys_updated_on>
             <value>Take Turn</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>command</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Set Player Ready</label>
+            <language>en</language>
+            <name>x_0505_mothership_game_command</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-30 00:57:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-30 00:57:24</sys_updated_on>
+            <value>Set Player Ready</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

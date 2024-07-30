@@ -7,6 +7,7 @@
                 <element inactive_on_update="false" label="Join Game" sequence="0" value="Join Game"/>
                 <element inactive_on_update="false" label="Place Ship" sequence="2" value="Place Ship"/>
                 <element inactive_on_update="false" label="Take Turn" sequence="3" value="Take Turn"/>
+                <element inactive_on_update="false" label="Set Player Ready" sequence="4" value="Set Player Ready"/>
                 <element inactive_on_update="false" label="Leave Game" sequence="1" value="Leave Game"/>
             </choice>
         </element>
