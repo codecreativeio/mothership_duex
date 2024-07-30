@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1816092000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1859982000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="">{}</category>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>mothership__place_ship</internal_name>
-        <label_cache>[{"name":"subflow.game_command.coordinate_x","label":"Input➛Game Command➛Coordinate X","reference":"","reference_display":"Coordinate X","type":"integer","base_type":"integer","parent_table_name":"x_0505_mothership_game_command","column_name":"coordinate_x","usedInstances":{"433820f5-4ae8-40bd-87b5-667f4bce243d":["column"]}},{"name":"690f6473-eb25-4211-97ef-0336c6316a21.item","label":"11 - For Each➛Game Cell Record","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"reference","base_type":"reference","usedInstances":{"5f5105a1-a790-484b-9cb1-14292dcb3526":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"673771a6-2686-4ab0-9781-1ff2a3be47b4.Records","label":"10 - Look Up Records➛Game Cell Records","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"records","base_type":"records","usedInstances":{"690f6473-eb25-4211-97ef-0336c6316a21":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"388149b1-3392-49c9-a916-99cdff8c93e2.error_message","label":"8 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","usedInstances":{"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"flow_variable.coordinate_y","label":"Flow Variables➛coordinate y","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["row"],"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4322bd0c-3aad-48a3-8212-f5d18157aa12"}},{"name":"subflow.game_command.player","label":"Input➛Game Command➛Player","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"player","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["player"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["player"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["player"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"subflow.game_command.game","label":"Input➛Game Command➛Game","reference":"x_0505_mothership_game","reference_display":"Game","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"game","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["game"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["game"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["game"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"6b49aa79-04ce-43ab-8d35-2c3914e1e34e.Records","label":"2 - Look Up Records➛Ship Cell Records","reference":"x_0505_mothership_ship_cell","reference_display":"Ship Cell","type":"records","base_type":"records","usedInstances":{"886bf28d-0df2-41fe-8bae-c376aa6006de":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.game_command.ship","label":"Input➛Game Command➛Ship","reference":"x_0505_mothership_ship","reference_display":"Ship","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"ship","usedInstances":{"32746023-dd7d-44aa-801a-401bab033429":["conditions"],"6b49aa79-04ce-43ab-8d35-2c3914e1e34e":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["ship"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["ship"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"subflow.game_command","label":"Input➛Game Command","reference":"x_0505_mothership_game_command","reference_display":"Game Command","type":"reference","base_type":"reference","column_name":"","usedInstances":{"9565d707-e83c-43ac-9c52-8d3f310ec594":["record"],"48e296fb-01f1-445f-b0fb-b94469436fd7":["record"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["game_command"],"3c9022bc-25d2-468f-b7c7-c50f6893f6d0":["record"],"9dc0ecc0-72e6-405d-bd52-379dc8221f54":["record"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["game_command"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e174c432-6f85-49f9-890c-288f0220332c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.coordinate_x","label":"Flow Variables➛coordinate x","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"89fd5501-4fe3-4bd0-860e-942a9ac6cb4b":["coordinate_y-0"],"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["column"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"36a84b7a-1044-48e2-9c09-720b4a231e7d"}},{"name":"f5dbb8f4-d5dc-43ce-82fb-415e18356c20.Records","label":"3 - Look Up Records➛Game Cell Records","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"records","base_type":"records","usedInstances":{"d48e8c22-2f75-4398-91fe-1321cca157cd":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d48e8c22-2f75-4398-91fe-1321cca157cd.item","label":"4 - For Each➛Game Cell Record","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"reference","base_type":"reference","usedInstances":{"cefa006a-e158-4420-8078-e9f719bd359d":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <label_cache>[{"name":"d48e8c22-2f75-4398-91fe-1321cca157cd.item","label":"4 - For Each➛Game Cell Record","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"reference","base_type":"reference","usedInstances":{"cefa006a-e158-4420-8078-e9f719bd359d":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f5dbb8f4-d5dc-43ce-82fb-415e18356c20.Records","label":"3 - Look Up Records➛Game Cell Records","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"records","base_type":"records","usedInstances":{"d48e8c22-2f75-4398-91fe-1321cca157cd":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.coordinate_x","label":"Flow Variables➛coordinate x","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"89fd5501-4fe3-4bd0-860e-942a9ac6cb4b":["coordinate_y-0"],"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["column"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"36a84b7a-1044-48e2-9c09-720b4a231e7d"}},{"name":"subflow.game_command","label":"Input➛Game Command","reference":"x_0505_mothership_game_command","reference_display":"Game Command","type":"reference","base_type":"reference","column_name":"","usedInstances":{"9565d707-e83c-43ac-9c52-8d3f310ec594":["record"],"48e296fb-01f1-445f-b0fb-b94469436fd7":["record"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["game_command"],"3c9022bc-25d2-468f-b7c7-c50f6893f6d0":["record"],"9dc0ecc0-72e6-405d-bd52-379dc8221f54":["record"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["game_command"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e174c432-6f85-49f9-890c-288f0220332c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.game_command.ship","label":"Input➛Game Command➛Ship","reference":"x_0505_mothership_ship","reference_display":"Ship","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"ship","usedInstances":{"32746023-dd7d-44aa-801a-401bab033429":["conditions"],"6b49aa79-04ce-43ab-8d35-2c3914e1e34e":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["ship"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["ship"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"6b49aa79-04ce-43ab-8d35-2c3914e1e34e.Records","label":"2 - Look Up Records➛Ship Cell Records","reference":"x_0505_mothership_ship_cell","reference_display":"Ship Cell","type":"records","base_type":"records","usedInstances":{"886bf28d-0df2-41fe-8bae-c376aa6006de":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.game_command.game","label":"Input➛Game Command➛Game","reference":"x_0505_mothership_game","reference_display":"Game","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"game","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["game"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["game"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["game"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"subflow.game_command.player","label":"Input➛Game Command➛Player","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"player","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["player"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["player"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["player"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"flow_variable.coordinate_y","label":"Flow Variables➛coordinate y","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["row"],"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4322bd0c-3aad-48a3-8212-f5d18157aa12"}},{"name":"388149b1-3392-49c9-a916-99cdff8c93e2.error_message","label":"8 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","usedInstances":{"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"673771a6-2686-4ab0-9781-1ff2a3be47b4.Records","label":"10 - Look Up Records➛Game Cell Records","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"records","base_type":"records","usedInstances":{"690f6473-eb25-4211-97ef-0336c6316a21":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"690f6473-eb25-4211-97ef-0336c6316a21.item","label":"11 - For Each➛Game Cell Record","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"reference","base_type":"reference","usedInstances":{"5f5105a1-a790-484b-9cb1-14292dcb3526":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.game_command.coordinate_x","label":"Input➛Game Command➛Coordinate X","reference":"","reference_display":"Coordinate X","type":"integer","base_type":"integer","parent_table_name":"x_0505_mothership_game_command","column_name":"coordinate_x","usedInstances":{"433820f5-4ae8-40bd-87b5-667f4bce243d":["column"]}}]</label_cache>
         <master_snapshot>e05c4267835b8250dc1bc755eeaad3b1</master_snapshot>
         <name>Mothership - Place Ship</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>61edfdb0830b0a10dc1bc755eeaad320</sys_id>
-        <sys_mod_count>123</sys_mod_count>
+        <sys_mod_count>126</sys_mod_count>
         <sys_name>Mothership - Place Ship</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mothership Duex" source="x_0505_mothership">f46e2129839a0210dc1bc755eeaad3ae</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_update_name>sys_hub_flow_61edfdb0830b0a10dc1bc755eeaad320</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:34:49</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=61edfdb0830b0a10dc1bc755eeaad320"/>
@@ -167,10 +167,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:59:53</sys_created_on>
         <sys_id>05df02f8834b0a10dc1bc755eeaad371</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:54</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>cfad2323-9e0e-4f62-97c8-29b9b0ddccdb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=05df02f8834b0a10dc1bc755eeaad371"/>
@@ -231,10 +231,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:53:06</sys_created_on>
         <sys_id>2d4ecef4834b0a10dc1bc755eeaad39e</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>d2a2b797-1d28-42e0-b862-bd83bc7111c7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2d4ecef4834b0a10dc1bc755eeaad39e"/>
@@ -295,10 +295,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:59:22</sys_created_on>
         <sys_id>2dbf8ab8834b0a10dc1bc755eeaad360</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:54</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>9dc0ecc0-72e6-405d-bd52-379dc8221f54</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2dbf8ab8834b0a10dc1bc755eeaad360"/>
@@ -385,10 +385,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:45:45</sys_created_on>
         <sys_id>399c02b4834b0a10dc1bc755eeaad384</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>388149b1-3392-49c9-a916-99cdff8c93e2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=399c02b4834b0a10dc1bc755eeaad384"/>
@@ -475,10 +475,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:52:42</sys_created_on>
         <sys_id>732e4638834b0a10dc1bc755eeaad3e5</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>48e296fb-01f1-445f-b0fb-b94469436fd7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=732e4638834b0a10dc1bc755eeaad3e5"/>
@@ -565,10 +565,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 00:51:03</sys_created_on>
         <sys_id>91794e23835b8250dc1bc755eeaad379</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:24</sys_updated_on>
         <ui_id>f5dbb8f4-d5dc-43ce-82fb-415e18356c20</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=91794e23835b8250dc1bc755eeaad379"/>
@@ -629,10 +629,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 00:43:10</sys_created_on>
         <sys_id>954ef9f0830b0a10dc1bc755eeaad3d0</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:24</sys_updated_on>
         <ui_id>9565d707-e83c-43ac-9c52-8d3f310ec594</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=954ef9f0830b0a10dc1bc755eeaad3d0"/>
@@ -719,10 +719,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:52:04</sys_created_on>
         <sys_id>a20ec238834b0a10dc1bc755eeaad309</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>5f5105a1-a790-484b-9cb1-14292dcb3526</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a20ec238834b0a10dc1bc755eeaad309"/>
@@ -757,10 +757,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 00:49:41</sys_created_on>
         <sys_id>b0cfbd74830b0a10dc1bc755eeaad382</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:24</sys_updated_on>
         <ui_id>6b49aa79-04ce-43ab-8d35-2c3914e1e34e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b0cfbd74830b0a10dc1bc755eeaad382"/>
@@ -821,10 +821,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:57:09</sys_created_on>
         <sys_id>bc3fca78834b0a10dc1bc755eeaad304</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:10:37</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>433820f5-4ae8-40bd-87b5-667f4bce243d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc3fca78834b0a10dc1bc755eeaad304"/>
@@ -885,10 +885,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:50:35</sys_created_on>
         <sys_id>e0bd4af4834b0a10dc1bc755eeaad395</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>673771a6-2686-4ab0-9781-1ff2a3be47b4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e0bd4af4834b0a10dc1bc755eeaad395"/>
@@ -949,10 +949,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 00:52:55</sys_created_on>
         <sys_id>e4e90a63835b8250dc1bc755eeaad3d5</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:24</sys_updated_on>
         <ui_id>cefa006a-e158-4420-8078-e9f719bd359d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e4e90a63835b8250dc1bc755eeaad3d5"/>
@@ -997,10 +997,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 00:52:36</sys_created_on>
         <sys_id>04d94663835b8250dc1bc755eeaad376</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:24</sys_updated_on>
         <ui_id>d48e8c22-2f75-4398-91fe-1321cca157cd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1046,10 +1046,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:47:54</sys_created_on>
         <sys_id>191d0eb4834b0a10dc1bc755eeaad326</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>8a29e954-a942-459d-b52e-8f1aaf3f6f04</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1121,10 +1121,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 00:50:50</sys_created_on>
         <sys_id>29008e74830b0a10dc1bc755eeaad370</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:24</sys_updated_on>
         <ui_id>886bf28d-0df2-41fe-8bae-c376aa6006de</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1169,10 +1169,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:45:44</sys_created_on>
         <sys_id>b19c02b4834b0a10dc1bc755eeaad376</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:34:39</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>9e6b7181-6e14-4919-817b-af48c563d1b3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1214,26 +1214,26 @@
         <input_name>coordinate_y</input_name>
         <instance>b19c02b4834b0a10dc1bc755eeaad376</instance>
         <referenced_table>sys_hub_flow_logic</referenced_table>
-        <script>{"coordinate_y":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nlet direction \u003d fd_data.subflow_inputs.game_command.direction.toString();\nlet head_x \u003d fd_data.subflow_inputs.game_command.coordinate_x * 1;\nlet head_y \u003d fd_data.subflow_inputs.game_command.coordinate_y * 1;\nlet offset_x \u003d fd_data._6__for_each.item.offset_x * 1;\nlet offset_y \u003d fd_data._6__for_each.item.offset_y * 1;\nlet x \u003d head_x + offset_x;\nlet y \u003d head_y + offset_y;\n\nif (direction \u003d\u003d \u0027Down\u0027) {\n    return y;\n}\nelse if (direction \u003d\u003d \u0027Up\u0027) {\n    return -y;\n}\nelse if (direction \u003d\u003d \u0027Right\u0027) {\n    return x;\n}\nelse if (direction \u003d\u003d \u0027Left\u0027) {\n    return -x;\n}"}}</script>
+        <script>{"coordinate_y":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nlet direction \u003d fd_data.subflow_inputs.game_command.direction.toString();\nlet xOffset \u003d fd_data._6__for_each.item.offset_x * 1;\nlet yOffset \u003d fd_data._6__for_each.item.offset_y * 1;\nlet xCoord \u003d fd_data.subflow_inputs.game_command.coordinate_x * 1;\nlet yCoord \u003d fd_data.subflow_inputs.game_command.coordinate_y * 1;\n\nswitch (direction) {\n    case \u0027Up\u0027:\n        // Normal direction points up:\n        // positive y offset will decrease coordinate y\n        return yCoord - yOffset;\n    case \u0027Down\u0027:\n        // Normal direction: \n        // positive y offset will increase coordinate y\n        return yCoord + yOffset;\n    case \u0027Left\u0027:\n        // Normal direction points left: \n        // positive x offset will increase coordinate y\n        return xCoord + xOffset;\n    case \u0027Right\u0027:\n        // Normal direction points right: \n        // positive x offset will decrease coordinate y\n        return yCoord - xOffset;\n}"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:45:44</sys_created_on>
         <sys_id>3d9c02b4834b0a10dc1bc755eeaad377</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 00:57:07</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:07</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
         <input_name>coordinate_x</input_name>
         <instance>b19c02b4834b0a10dc1bc755eeaad376</instance>
         <referenced_table>sys_hub_flow_logic</referenced_table>
-        <script>{"coordinate_x":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nlet direction \u003d fd_data.subflow_inputs.game_command.direction.toString();\nlet head_x \u003d fd_data.subflow_inputs.game_command.coordinate_x * 1;\nlet head_y \u003d fd_data.subflow_inputs.game_command.coordinate_y * 1;\nlet offset_x \u003d fd_data._6__for_each.item.offset_x * 1;\nlet offset_y \u003d fd_data._6__for_each.item.offset_y * 1;\nlet x \u003d head_x + offset_x;\nlet y \u003d head_y + offset_y;\n\nif (direction \u003d\u003d \u0027Down\u0027) {\n    return x;\n}\nelse if (direction \u003d\u003d \u0027Up\u0027) {\n    return -x;\n}\nelse if (direction \u003d\u003d \u0027Right\u0027) {\n    return -y;\n}\nelse if (direction \u003d\u003d \u0027Left\u0027) {\n    return y;\n}"}}</script>
+        <script>{"coordinate_x":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nlet direction \u003d fd_data.subflow_inputs.game_command.direction.toString();\nlet xOffset \u003d fd_data._6__for_each.item.offset_x * 1;\nlet yOffset \u003d fd_data._6__for_each.item.offset_y * 1;\nlet xCoord \u003d fd_data.subflow_inputs.game_command.coordinate_x * 1;\nlet yCoord \u003d fd_data.subflow_inputs.game_command.coordinate_y * 1;\n\nswitch (direction) {\n    case \u0027Up\u0027:\n        // Normal direction points up:\n        // positive x offset will decrease coordinate x\n        return xCoord - xOffset;\n    case \u0027Down\u0027:\n        // Normal direction: \n        // positive x offset will increase coordinate x\n        return xCoord + xOffset;\n    case \u0027Left\u0027:\n        // Normal direction points left: \n        // positive y offset will decrease coordinate x\n        return xCoord - yOffset;\n    case \u0027Right\u0027:\n        // Normal direction points right: \n        // positive y offset will increase coordinate x\n        return xCoord + yOffset;\n}"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:45:44</sys_created_on>
         <sys_id>f19c02b4834b0a10dc1bc755eeaad377</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:03:25</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:07</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -1258,10 +1258,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:48:53</sys_created_on>
         <sys_id>bb4d0e74834b0a10dc1bc755eeaad372</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:54</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>88ad4424-e9b1-4c45-bfe3-c1b06c83afee</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1293,10 +1293,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:56:10</sys_created_on>
         <sys_id>d6fe8678834b0a10dc1bc755eeaad3e1</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>8086d9f9-a71f-481e-941c-7f6eb67939d0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1329,10 +1329,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-25 01:51:48</sys_created_on>
         <sys_id>eafdcef4834b0a10dc1bc755eeaad390</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:25</sys_updated_on>
         <ui_id>690f6473-eb25-4211-97ef-0336c6316a21</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1597,7 +1597,7 @@
         <description>This is not machine-y</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>mothership__place_ship</internal_name>
-        <label_cache>[{"name":"subflow.game_command.coordinate_x","label":"Input➛Game Command➛Coordinate X","reference":"","reference_display":"Coordinate X","type":"integer","base_type":"integer","parent_table_name":"x_0505_mothership_game_command","column_name":"coordinate_x","usedInstances":{"433820f5-4ae8-40bd-87b5-667f4bce243d":["column"]}},{"name":"690f6473-eb25-4211-97ef-0336c6316a21.item","label":"11 - For Each➛Game Cell Record","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"reference","base_type":"reference","usedInstances":{"5f5105a1-a790-484b-9cb1-14292dcb3526":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"673771a6-2686-4ab0-9781-1ff2a3be47b4.Records","label":"10 - Look Up Records➛Game Cell Records","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"records","base_type":"records","usedInstances":{"690f6473-eb25-4211-97ef-0336c6316a21":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"388149b1-3392-49c9-a916-99cdff8c93e2.error_message","label":"8 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","usedInstances":{"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"flow_variable.coordinate_y","label":"Flow Variables➛coordinate y","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["row"],"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4322bd0c-3aad-48a3-8212-f5d18157aa12"}},{"name":"subflow.game_command.player","label":"Input➛Game Command➛Player","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"player","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["player"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["player"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["player"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"subflow.game_command.game","label":"Input➛Game Command➛Game","reference":"x_0505_mothership_game","reference_display":"Game","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"game","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["game"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["game"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["game"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"6b49aa79-04ce-43ab-8d35-2c3914e1e34e.Records","label":"2 - Look Up Records➛Ship Cell Records","reference":"x_0505_mothership_ship_cell","reference_display":"Ship Cell","type":"records","base_type":"records","usedInstances":{"886bf28d-0df2-41fe-8bae-c376aa6006de":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.game_command.ship","label":"Input➛Game Command➛Ship","reference":"x_0505_mothership_ship","reference_display":"Ship","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"ship","usedInstances":{"32746023-dd7d-44aa-801a-401bab033429":["conditions"],"6b49aa79-04ce-43ab-8d35-2c3914e1e34e":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["ship"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["ship"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"subflow.game_command","label":"Input➛Game Command","reference":"x_0505_mothership_game_command","reference_display":"Game Command","type":"reference","base_type":"reference","column_name":"","usedInstances":{"9565d707-e83c-43ac-9c52-8d3f310ec594":["record"],"48e296fb-01f1-445f-b0fb-b94469436fd7":["record"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["game_command"],"3c9022bc-25d2-468f-b7c7-c50f6893f6d0":["record"],"9dc0ecc0-72e6-405d-bd52-379dc8221f54":["record"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["game_command"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e174c432-6f85-49f9-890c-288f0220332c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.coordinate_x","label":"Flow Variables➛coordinate x","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"89fd5501-4fe3-4bd0-860e-942a9ac6cb4b":["coordinate_y-0"],"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["column"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"36a84b7a-1044-48e2-9c09-720b4a231e7d"}},{"name":"f5dbb8f4-d5dc-43ce-82fb-415e18356c20.Records","label":"3 - Look Up Records➛Game Cell Records","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"records","base_type":"records","usedInstances":{"d48e8c22-2f75-4398-91fe-1321cca157cd":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d48e8c22-2f75-4398-91fe-1321cca157cd.item","label":"4 - For Each➛Game Cell Record","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"reference","base_type":"reference","usedInstances":{"cefa006a-e158-4420-8078-e9f719bd359d":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <label_cache>[{"name":"d48e8c22-2f75-4398-91fe-1321cca157cd.item","label":"4 - For Each➛Game Cell Record","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"reference","base_type":"reference","usedInstances":{"cefa006a-e158-4420-8078-e9f719bd359d":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f5dbb8f4-d5dc-43ce-82fb-415e18356c20.Records","label":"3 - Look Up Records➛Game Cell Records","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"records","base_type":"records","usedInstances":{"d48e8c22-2f75-4398-91fe-1321cca157cd":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.coordinate_x","label":"Flow Variables➛coordinate x","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"89fd5501-4fe3-4bd0-860e-942a9ac6cb4b":["coordinate_y-0"],"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["column"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"36a84b7a-1044-48e2-9c09-720b4a231e7d"}},{"name":"subflow.game_command","label":"Input➛Game Command","reference":"x_0505_mothership_game_command","reference_display":"Game Command","type":"reference","base_type":"reference","column_name":"","usedInstances":{"9565d707-e83c-43ac-9c52-8d3f310ec594":["record"],"48e296fb-01f1-445f-b0fb-b94469436fd7":["record"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["game_command"],"3c9022bc-25d2-468f-b7c7-c50f6893f6d0":["record"],"9dc0ecc0-72e6-405d-bd52-379dc8221f54":["record"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["game_command"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e174c432-6f85-49f9-890c-288f0220332c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.game_command.ship","label":"Input➛Game Command➛Ship","reference":"x_0505_mothership_ship","reference_display":"Ship","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"ship","usedInstances":{"32746023-dd7d-44aa-801a-401bab033429":["conditions"],"6b49aa79-04ce-43ab-8d35-2c3914e1e34e":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["ship"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["ship"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"6b49aa79-04ce-43ab-8d35-2c3914e1e34e.Records","label":"2 - Look Up Records➛Ship Cell Records","reference":"x_0505_mothership_ship_cell","reference_display":"Ship Cell","type":"records","base_type":"records","usedInstances":{"886bf28d-0df2-41fe-8bae-c376aa6006de":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.game_command.game","label":"Input➛Game Command➛Game","reference":"x_0505_mothership_game","reference_display":"Game","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"game","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["game"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["game"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["game"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"subflow.game_command.player","label":"Input➛Game Command➛Player","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_0505_mothership_game_command","column_name":"player","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"673771a6-2686-4ab0-9781-1ff2a3be47b4":["conditions"],"d2a2b797-1d28-42e0-b862-bd83bc7111c7":["player"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["player"],"cfad2323-9e0e-4f62-97c8-29b9b0ddccdb":["player"],"f5dbb8f4-d5dc-43ce-82fb-415e18356c20":["conditions"]}},{"name":"flow_variable.coordinate_y","label":"Flow Variables➛coordinate y","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"388149b1-3392-49c9-a916-99cdff8c93e2":["conditions"],"433820f5-4ae8-40bd-87b5-667f4bce243d":["row"],"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"4322bd0c-3aad-48a3-8212-f5d18157aa12"}},{"name":"388149b1-3392-49c9-a916-99cdff8c93e2.error_message","label":"8 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","usedInstances":{"8a29e954-a942-459d-b52e-8f1aaf3f6f04":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"673771a6-2686-4ab0-9781-1ff2a3be47b4.Records","label":"10 - Look Up Records➛Game Cell Records","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"records","base_type":"records","usedInstances":{"690f6473-eb25-4211-97ef-0336c6316a21":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"690f6473-eb25-4211-97ef-0336c6316a21.item","label":"11 - For Each➛Game Cell Record","reference":"x_0505_mothership_game_cell","reference_display":"Game Cell","type":"reference","base_type":"reference","usedInstances":{"5f5105a1-a790-484b-9cb1-14292dcb3526":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"subflow.game_command.coordinate_x","label":"Input➛Game Command➛Coordinate X","reference":"","reference_display":"Coordinate X","type":"integer","base_type":"integer","parent_table_name":"x_0505_mothership_game_command","column_name":"coordinate_x","usedInstances":{"433820f5-4ae8-40bd-87b5-667f4bce243d":["column"]}}]</label_cache>
         <master>true</master>
         <name>Mothership - Place Ship</name>
         <natlang/>
@@ -1614,7 +1614,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e05c4267835b8250dc1bc755eeaad3b1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1622,7 +1622,7 @@
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:51</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:22</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=e05c4267835b8250dc1bc755eeaad3b1"/>
@@ -1746,10 +1746,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:35</sys_created_on>
         <sys_id>015c8267835b8250dc1bc755eeaad30c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:21</sys_updated_on>
         <ui_id>cefa006a-e158-4420-8078-e9f719bd359d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=015c8267835b8250dc1bc755eeaad30c"/>
@@ -1784,10 +1784,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:35</sys_created_on>
         <sys_id>055c8267835b8250dc1bc755eeaad331</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:22</sys_updated_on>
         <ui_id>d2a2b797-1d28-42e0-b862-bd83bc7111c7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=055c8267835b8250dc1bc755eeaad331"/>
@@ -1848,10 +1848,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:35</sys_created_on>
         <sys_id>0d5c8267835b8250dc1bc755eeaad336</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:51</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:22</sys_updated_on>
         <ui_id>433820f5-4ae8-40bd-87b5-667f4bce243d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d5c8267835b8250dc1bc755eeaad336"/>
@@ -1912,10 +1912,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:35</sys_created_on>
         <sys_id>385c8267835b8250dc1bc755eeaad305</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:21</sys_updated_on>
         <ui_id>f5dbb8f4-d5dc-43ce-82fb-415e18356c20</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=385c8267835b8250dc1bc755eeaad305"/>
@@ -1976,10 +1976,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:35</sys_created_on>
         <sys_id>415c8267835b8250dc1bc755eeaad31f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:21</sys_updated_on>
         <ui_id>673771a6-2686-4ab0-9781-1ff2a3be47b4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=415c8267835b8250dc1bc755eeaad31f"/>
@@ -2040,10 +2040,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:36</sys_created_on>
         <sys_id>455c8267835b8250dc1bc755eeaad35b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:51</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:22</sys_updated_on>
         <ui_id>cfad2323-9e0e-4f62-97c8-29b9b0ddccdb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=455c8267835b8250dc1bc755eeaad35b"/>
@@ -2104,10 +2104,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>785c4267835b8250dc1bc755eeaad3fd</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:21</sys_updated_on>
         <ui_id>6b49aa79-04ce-43ab-8d35-2c3914e1e34e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=785c4267835b8250dc1bc755eeaad3fd"/>
@@ -2168,10 +2168,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:35</sys_created_on>
         <sys_id>895c8267835b8250dc1bc755eeaad316</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:21</sys_updated_on>
         <ui_id>388149b1-3392-49c9-a916-99cdff8c93e2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=895c8267835b8250dc1bc755eeaad316"/>
@@ -2258,10 +2258,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:35</sys_created_on>
         <sys_id>c15c8267835b8250dc1bc755eeaad324</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:22</sys_updated_on>
         <ui_id>5f5105a1-a790-484b-9cb1-14292dcb3526</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c15c8267835b8250dc1bc755eeaad324"/>
@@ -2296,10 +2296,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:35</sys_created_on>
         <sys_id>c55c8267835b8250dc1bc755eeaad329</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:22</sys_updated_on>
         <ui_id>48e296fb-01f1-445f-b0fb-b94469436fd7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c55c8267835b8250dc1bc755eeaad329"/>
@@ -2386,10 +2386,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:36</sys_created_on>
         <sys_id>c55c8267835b8250dc1bc755eeaad33c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:51</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:22</sys_updated_on>
         <ui_id>9dc0ecc0-72e6-405d-bd52-379dc8221f54</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c55c8267835b8250dc1bc755eeaad33c"/>
@@ -2476,10 +2476,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>f45c4267835b8250dc1bc755eeaad3f3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:21</sys_updated_on>
         <ui_id>9565d707-e83c-43ac-9c52-8d3f310ec594</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f45c4267835b8250dc1bc755eeaad3f3"/>
@@ -2575,10 +2575,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>705c4267835b8250dc1bc755eeaad3e8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:51</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:22</sys_updated_on>
         <ui_id>8086d9f9-a71f-481e-941c-7f6eb67939d0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2610,10 +2610,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>785c4267835b8250dc1bc755eeaad3dc</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:21</sys_updated_on>
         <ui_id>9e6b7181-6e14-4919-817b-af48c563d1b3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2655,26 +2655,26 @@
         <input_name>coordinate_y</input_name>
         <instance>785c4267835b8250dc1bc755eeaad3dc</instance>
         <referenced_table>sys_hub_flow_logic</referenced_table>
-        <script>{"coordinate_y":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nlet direction \u003d fd_data.subflow_inputs.game_command.direction.toString();\nlet head_x \u003d fd_data.subflow_inputs.game_command.coordinate_x * 1;\nlet head_y \u003d fd_data.subflow_inputs.game_command.coordinate_y * 1;\nlet offset_x \u003d fd_data._6__for_each.item.offset_x * 1;\nlet offset_y \u003d fd_data._6__for_each.item.offset_y * 1;\nlet x \u003d head_x + offset_x;\nlet y \u003d head_y + offset_y;\n\nif (direction \u003d\u003d \u0027Down\u0027) {\n    return y;\n}\nelse if (direction \u003d\u003d \u0027Up\u0027) {\n    return -y;\n}\nelse if (direction \u003d\u003d \u0027Right\u0027) {\n    return x;\n}\nelse if (direction \u003d\u003d \u0027Left\u0027) {\n    return -x;\n}"}}</script>
+        <script>{"coordinate_y":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nlet direction \u003d fd_data.subflow_inputs.game_command.direction.toString();\nlet xOffset \u003d fd_data._6__for_each.item.offset_x * 1;\nlet yOffset \u003d fd_data._6__for_each.item.offset_y * 1;\nlet xCoord \u003d fd_data.subflow_inputs.game_command.coordinate_x * 1;\nlet yCoord \u003d fd_data.subflow_inputs.game_command.coordinate_y * 1;\n\nswitch (direction) {\n    case \u0027Up\u0027:\n        // Normal direction points up:\n        // positive y offset will decrease coordinate y\n        return yCoord - yOffset;\n    case \u0027Down\u0027:\n        // Normal direction: \n        // positive y offset will increase coordinate y\n        return yCoord + yOffset;\n    case \u0027Left\u0027:\n        // Normal direction points left: \n        // positive x offset will increase coordinate y\n        return xCoord + xOffset;\n    case \u0027Right\u0027:\n        // Normal direction points right: \n        // positive x offset will decrease coordinate y\n        return yCoord - xOffset;\n}"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>305c4267835b8250dc1bc755eeaad3de</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:03:34</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:20</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
         <input_name>coordinate_x</input_name>
         <instance>785c4267835b8250dc1bc755eeaad3dc</instance>
         <referenced_table>sys_hub_flow_logic</referenced_table>
-        <script>{"coordinate_x":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nlet direction \u003d fd_data.subflow_inputs.game_command.direction.toString();\nlet head_x \u003d fd_data.subflow_inputs.game_command.coordinate_x * 1;\nlet head_y \u003d fd_data.subflow_inputs.game_command.coordinate_y * 1;\nlet offset_x \u003d fd_data._6__for_each.item.offset_x * 1;\nlet offset_y \u003d fd_data._6__for_each.item.offset_y * 1;\nlet x \u003d head_x + offset_x;\nlet y \u003d head_y + offset_y;\n\nif (direction \u003d\u003d \u0027Down\u0027) {\n    return x;\n}\nelse if (direction \u003d\u003d \u0027Up\u0027) {\n    return -x;\n}\nelse if (direction \u003d\u003d \u0027Right\u0027) {\n    return -y;\n}\nelse if (direction \u003d\u003d \u0027Left\u0027) {\n    return y;\n}"}}</script>
+        <script>{"coordinate_x":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nlet direction \u003d fd_data.subflow_inputs.game_command.direction.toString();\nlet xOffset \u003d fd_data._6__for_each.item.offset_x * 1;\nlet yOffset \u003d fd_data._6__for_each.item.offset_y * 1;\nlet xCoord \u003d fd_data.subflow_inputs.game_command.coordinate_x * 1;\nlet yCoord \u003d fd_data.subflow_inputs.game_command.coordinate_y * 1;\n\nswitch (direction) {\n    case \u0027Up\u0027:\n        // Normal direction points up:\n        // positive x offset will decrease coordinate x\n        return xCoord - xOffset;\n    case \u0027Down\u0027:\n        // Normal direction: \n        // positive x offset will increase coordinate x\n        return xCoord + xOffset;\n    case \u0027Left\u0027:\n        // Normal direction points left: \n        // positive y offset will decrease coordinate x\n        return xCoord - yOffset;\n    case \u0027Right\u0027:\n        // Normal direction points right: \n        // positive y offset will increase coordinate x\n        return xCoord + yOffset;\n}"}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>3c5c4267835b8250dc1bc755eeaad3dd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:03:34</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:20</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -2699,10 +2699,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>7c5c4267835b8250dc1bc755eeaad3ea</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:51</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:22</sys_updated_on>
         <ui_id>88ad4424-e9b1-4c45-bfe3-c1b06c83afee</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2735,10 +2735,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>b45c4267835b8250dc1bc755eeaad3e1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:21</sys_updated_on>
         <ui_id>8a29e954-a942-459d-b52e-8f1aaf3f6f04</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2810,10 +2810,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>f05c4267835b8250dc1bc755eeaad3d6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:21</sys_updated_on>
         <ui_id>d48e8c22-2f75-4398-91fe-1321cca157cd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2859,10 +2859,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>f05c4267835b8250dc1bc755eeaad3e5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:22</sys_updated_on>
         <ui_id>690f6473-eb25-4211-97ef-0336c6316a21</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2908,10 +2908,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-16 01:03:34</sys_created_on>
         <sys_id>f85c4267835b8250dc1bc755eeaad3d9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Mothership Duex">f46e2129839a0210dc1bc755eeaad3ae</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:50</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:21</sys_updated_on>
         <ui_id>886bf28d-0df2-41fe-8bae-c376aa6006de</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3170,7 +3170,7 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=61edfdb0830b0a10dc1bc755eeaad320"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=61edfdb0830b0a10dc1bc755eeaad320^sys_idNOT INe95c8267835b8250dc1bc755eeaad3e5"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@3b24b828</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@9e4bf59</plan>
         <plan_id display_value="Mothership - Place Ship">61edfdb0830b0a10dc1bc755eeaad320</plan_id>
         <snapshot>e05c4267835b8250dc1bc755eeaad3b1</snapshot>
         <sys_created_by>admin</sys_created_by>
@@ -3178,10 +3178,10 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e95c8267835b8250dc1bc755eeaad3e5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 01:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-16 13:21:24</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>
